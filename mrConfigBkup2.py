@@ -30,14 +30,6 @@ print(f'OrgID {orgId}')
 dashboard = meraki.DashboardAPI()
 
 
-
-
-
-#networks = dashboard.organizations.getOrganizationNetworks(orgId)
-
-#Internet Lifeguard (organization ID: 803699) 
-#thePeral L_821343982041694875
-
 #Radio Settings Per AP
 
 wirelessIoTRadioConfig = {}

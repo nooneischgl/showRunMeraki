@@ -12,10 +12,7 @@ MERAKI_PYTHON_SDK_CALLER = 'configMeraki'
 
 dashboard = meraki.DashboardAPI()
 
-#networks = dashboard.organizations.getOrganizationNetworks(orgId)
 
-#Internet Lifeguard (organization ID: 803699) 
-#thePeral L_821343982041694875
 
 orgSettingsConfig = {}
 async def orgSettings(aiomeraki: meraki.aio.AsyncDashboardAPI, orgId:str) -> Dict[str,int]:

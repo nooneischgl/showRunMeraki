@@ -20,16 +20,9 @@ import meraki.aio
 
 MERAKI_PYTHON_SDK_CALLER = 'configMeraki'
 
-orgName = "Internet Lifeguard"
-orgId = '803699'
-netName = "thePeral"
-netId = 'L_821343982041694875'
 
 dashboard = meraki.DashboardAPI()
 
-
-#Internet Lifeguard (organization ID: 803699) 
-#thePeral L_821343982041694875
 
 mxInOAC = False
     ## Appliance / MX
